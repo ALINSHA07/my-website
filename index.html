@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinsha's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h1>ALINSHA S</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <img src="ALINSHA S.png" alt="Portfolio Banner">
+    </section>
+
+    <!-- Hero Section with Animation -->
+    <section id="home" class="hero">
+        <div class="hero-left">
+            <h2>Hello, I'm <span>Alinsha</span></h2>
+            <p>BTech CSE Student | Aspiring UI/UX Designer and Front-end Developer</p>
+        </div>
+        <div class="hero-right">
+            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_jcikwtux.json" 
+                           background="transparent" speed="1" style="width: 350px; height: 350px;" 
+                           loop autoplay>
+            </lottie-player>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I'm passionate about designing creative user interfaces and building interactive websites. 
+            Currently pursuing my BTech in Computer Science and Engineering, I aim to combine design and technology 
+            to create impactful digital experiences.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+   <div class="projects-container">
+  <div class="project-card" onclick="window.location.href='login.html'">
+    <img src="Group 5.png" alt="Login Page">
+    <div class="card-content">
+      <h3>Login Page</h3>
+      <p>Login page design.</p>
+      <span class="tag">FIGMA</span>
+    </div>
+  </div>
+
+  <div class="project-card" onclick="window.location.href='airpod.html'">
+    <img src="Frame 1.png" alt="AirPod Max">
+    <div class="card-content">
+      <h3>AirPod Max</h3>
+      <p>AirPod Max design.</p>
+      <span class="tag">FIGMA</span>
+    </div>
+  </div>
+</div>
+
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Let's Connect</h2>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/alinsha-s" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:alinshaalinsha@email.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <!-- Lottie Animation Script -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>
